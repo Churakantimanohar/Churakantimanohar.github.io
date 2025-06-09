@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manoharreddy.me/sitemap.xml
