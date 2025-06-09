@@ -3,546 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Churakanti Manohar's Portfolio - Aspiring Software Engineer & DevOps Specialist">
-    <title>Churakanti Manohar | Software Engineer & DevOps Portfolio</title>
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
-    
-    <!-- Animation Libraries -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    
-    <!-- Custom CSS -->
+    <meta name="description" content="Churakanti Manohar's Portfolio">
+    <title>Churakanti Manohar - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="script.js"></script>
 </head>
-
 <body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="loader">
-            <div class="loader-square"></div>
-            <div class="loader-square"></div>
-            <div class="loader-square"></div>
-            <div class="loader-square"></div>
-            <div class="loader-square"></div>
-            <div class="loader-square"></div>
-            <div class="loader-square"></div>
-        </div>
-    </div>
+    <header>
+        <div class="header-content">
+            <img src="https://github.com/Churakantimanohar/portfolio/blob/main/Manohar1.jpeg?raw=true" alt="Churakanti Manohar" class="profile-image">
+            <div class="hero">
+                <h1>Hello, I'm <span class="highlight">Churakanti Manohar</span></h1>
+<!--                 <p>Software Engineer | DevOps | Frontend Developer</p> -->
+                <p>College Student | Aspiring Software Engineer | DevOps Enthusiast | Frontend Developer</p>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo" data-aos="fade-right">M<span>.</span></a>
-            <ul class="nav-links">
-                <li><a href="#about" data-aos="fade-down" data-aos-delay="100">About</a></li>
-                <li><a href="#skills" data-aos="fade-down" data-aos-delay="200">Skills</a></li>
-                <li><a href="#projects" data-aos="fade-down" data-aos-delay="300">Projects</a></li>
-                <li><a href="#contact" data-aos="fade-down" data-aos-delay="400">Contact</a></li>
-            </ul>
-            <div class="hamburger" data-aos="fade-left">
-                <span></span>
-                <span></span>
-                <span></span>
+                <a href="MANOHAR_RESUME_@2024-08-16.pdf" class="download-button" download>Download Resume</a>
+                 <a href="MANOHAR_RESUME_@2024-08-16.pdf" class="view-button" target="_blank" >View Resume</a>
             </div>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero-section">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text" data-aos="fade-up" data-aos-delay="300">
-                    <h4 class="subtitle animate__animated animate__fadeInUp">Hello, I'm</h4>
-                    <h1 class="title">
-                        <span class="title-word title-word-1">Churakanti</span>
-                        <span class="title-word title-word-2">Manohar</span>
-                    </h1>
-                    <div class="typewriter">
-                        <p class="typing-text"></p>
-                    </div>
-                    <div class="hero-buttons">
-                        <a href="MANOHAR_RESUME_@2024-08-16.pdf" class="btn btn-primary" download>
-                            <i class="fas fa-download"></i> Download CV
-                        </a>
-                        <a href="#contact" class="btn btn-secondary">
-                            <i class="fas fa-paper-plane"></i> Hire Me
-                        </a>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://github.com/Churakantimanohar" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/manohar-reddy-93779924b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="mailto:churakantimanohar@gmail.com"><i class="fas fa-envelope"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <!-- <div class="hero-image" data-aos="fade-left">
-                    <div class="image-container">
-                        <img src="https://github.com/Churakantimanohar/portfolio/blob/main/Manohar1.jpeg?raw=true" 
-                             alt="Churakanti Manohar" 
-                             class="profile-image">
-                        <div class="image-border"></div>
-                        <div class="tech-icons">
-                            <i class="fab fa-java" style="--i:1"></i>
-                            <i class="fab fa-aws" style="--i:2"></i>
-                            <i class="fab fa-docker" style="--i:3"></i>
-                            <i class="fab fa-js" style="--i:4"></i>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="hero-image" data-aos="fade-left">
-                    <div class="orbit-container">
-                        <!-- Outer boundary circle -->
-                        <div class="outer-boundary"></div>
-                        
-                        <!-- Tech icons orbit in the annular space -->
-                        <div class="tech-orbit">
-                            <!-- Existing icons -->
-                            <div class="tech-icon" style="--i:1">
-                                <i class="fab fa-java"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:2">
-                                <i class="fab fa-aws"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:3">
-                                <i class="fab fa-docker"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:4">
-                                <i class="fab fa-js"></i>
-                            </div>
-                            
-                            <!-- Additional tech icons -->
-                            <div class="tech-icon" style="--i:5">
-                                <i class="fab fa-python"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:6">
-                                <i class="fab fa-react"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:7">
-                                <i class="fab fa-node-js"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:8">
-                                <i class="fab fa-html5"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:9">
-                                <i class="fab fa-css3-alt"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:10">
-                                <i class="fab fa-git-alt"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:11">
-                                <i class="fab fa-linux"></i>
-                            </div>
-                            <div class="tech-icon" style="--i:12">
-                                <i class="fab fa-windows"></i>
-                            </div>
-                        </div>
-                        
-                        <!-- Profile image circle -->
-                        <div class="profile-circle">
-                            <img src="https://github.com/Churakantimanohar/portfolio/blob/main/Manohar1.jpeg?raw=true" 
-                                 alt="Churakanti Manohar" 
-                                 class="profile-image">
-                            <div class="image-border"></div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="scroll-down">
-                <span>Scroll Down</span>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="hero-shape"></div>
+       
     </header>
+    
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am a passionate software engineer with expertise in DevOps, AWS, and front-end development. I love learning new technologies and improving user experiences. My goal is to work on innovative projects that drive meaningful change.</p>
+    </section>
 
-    <!-- About Section -->
-    <section id="about" class="section about-section">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">About <span>Me</span></h2>
-                <p class="section-subtitle">Get to know me better</p>
-                <div class="section-divider"></div>
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
             </div>
-            <div class="about-content">
-                <div class="about-image" data-aos="fade-right">
-                    <div class="image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="About Me">
-                        <div class="experience-badge">
-                            <span class="count">2+</span>
-                            <span>Years of Learning</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-text" data-aos="fade-left">
-                    <h3>Who am I?</h3>
-                    <p>I'm a passionate computer science student with a strong interest in DevOps practices and frontend development. Currently pursuing my degree while building practical skills through personal projects and open-source contributions.</p>
-                    
-                    <div class="about-details">
-                        <div class="detail-item">
-                            <i class="fas fa-user-graduate"></i>
-                            <div>
-                                <h4>Education</h4>
-                                <p>Computer Science Student (2022-Present)</p>
-                            </div>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fas fa-laptop-code"></i>
-                            <div>
-                                <h4>Focus Areas</h4>
-                                <p>DevOps, Cloud Computing, Full Stack Development</p>
-                            </div>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <h4>Location</h4>
-                                <p>India</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="progress-container">
-                        <div class="progress-item">
-                            <div class="progress-info">
-                                <span>DevOps Skills</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="progress-item">
-                            <div class="progress-info">
-                                <span>Frontend Development</span>
-                                <span>75%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="progress-item">
-                            <div class="progress-info">
-                                <span>Cloud Computing</span>
-                                <span>80%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 80%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5 & CSS3</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-aws"></i>
+                <h3>AWS</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-docker"></i>
+                <h3>Docker</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-linux"></i>
+                <h3>Linux</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-github"></i>
+                <h3>Git & GitHub</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-cogs"></i>
+                <h3>Kubernetes</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-tools"></i>
+                <h3>Jenkins</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>Ansible</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-cogs"></i>
+                <h3>Terraform</h3>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section skills-section">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">My <span>Skills</span></h2>
-                <p class="section-subtitle">Technologies I work with</p>
-                <div class="section-divider"></div>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Node.js Scalable Server</h3>
+                <p>Developed a scalable Node.js server using Nginx, PM2, MongoDB, and AWS for deployment with advanced monitoring and CI/CD integration.</p>
+                <a href="https://github.com/Churakantimanohar" target="_blank">View on GitHub</a>
             </div>
-            
-            <div class="skills-container">
-                <div class="skills-tabs" data-aos="fade-right">
-                    <button class="tab-btn active" data-tab="devops">DevOps</button>
-                    <button class="tab-btn" data-tab="frontend">Frontend</button>
-                    <button class="tab-btn" data-tab="backend">Backend</button>
-                    <button class="tab-btn" data-tab="tools">Tools</button>
-                </div>
-                
-                <div class="skills-content" data-aos="fade-left">
-                    <div class="tab-content active" id="devops">
-                        <div class="skill-card">
-                            <div class="skill-icon aws">
-                                <i class="fab fa-aws"></i>
-                            </div>
-                            <h3>AWS</h3>
-                            <div class="skill-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-icon docker">
-                                <i class="fab fa-docker"></i>
-                            </div>
-                            <h3>Docker</h3>
-                            <div class="skill-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-icon kubernetes">
-                                <i class="fas fa-cubes"></i>
-                            </div>
-                            <h3>Kubernetes</h3>
-                            <div class="skill-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-icon jenkins">
-                                <i class="fas fa-server"></i>
-                            </div>
-                            <h3>Jenkins</h3>
-                            <div class="skill-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="tab-content" id="frontend">
-                        <!-- Frontend skills content -->
-                    </div>
-                    
-                    <div class="tab-content" id="backend">
-                        <!-- Backend skills content -->
-                    </div>
-                    
-                    <div class="tab-content" id="tools">
-                        <!-- Tools content -->
-                    </div>
-                </div>
-            </div>
+            <!-- Add more projects here -->
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section projects-section">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">My <span>Projects</span></h2>
-                <p class="section-subtitle">Some of my recent works</p>
-                <div class="section-divider"></div>
-            </div>
-            
-            <div class="projects-filter" data-aos="fade-up">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="devops">DevOps</button>
-                <button class="filter-btn" data-filter="web">Web</button>
-                <button class="filter-btn" data-filter="cloud">Cloud</button>
-            </div>
-            
-            <div class="projects-grid">
-                <div class="project-card" data-category="devops" data-aos="fade-up" data-aos-delay="100">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Project">
-                        <div class="project-overlay">
-                            <a href="https://github.com/Churakantimanohar" class="project-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Node.js Scalable Server</h3>
-                        <p>Developed a scalable Node.js server using Nginx, PM2, MongoDB, and AWS with CI/CD integration.</p>
-                        <div class="project-tags">
-                            <span>Node.js</span>
-                            <span>AWS</span>
-                            <span>CI/CD</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="200">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Project">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Portfolio Website</h3>
-                        <p>Modern responsive portfolio website with animations and interactive elements.</p>
-                        <div class="project-tags">
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card" data-category="cloud" data-aos="fade-up" data-aos-delay="300">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Project">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Cloud Infrastructure</h3>
-                        <p>Automated cloud infrastructure setup using Terraform and Ansible.</p>
-                        <div class="project-tags">
-                            <span>Terraform</span>
-                            <span>Ansible</span>
-                            <span>AWS</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card coming-soon" data-aos="fade-up" data-aos-delay="400">
-                    <div class="coming-soon-content">
-                        <i class="fas fa-plus-circle"></i>
-                        <h3>More Projects Coming Soon</h3>
-                        <p>I'm constantly working on new projects that will be added here.</p>
-                    </div>
-                </div>
-            </div>
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:churakantimanohar@gmail.com">churakantimanohar@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/manohar-reddy-93779924b" target="_blank">LinkedIn Profile</a></p>
+            <p>GitHub: <a href="https://github.com/Churakantimanohar" target="_blank">GitHub Profile</a></p>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Get In <span>Touch</span></h2>
-                <p class="section-subtitle">Let's work together</p>
-                <div class="section-divider"></div>
-            </div>
-            
-            <div class="contact-container">
-                <div class="contact-info" data-aos="fade-right">
-                    <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <a href="mailto:churakantimanohar@gmail.com">churakantimanohar@gmail.com</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>LinkedIn</h3>
-                            <a href="https://www.linkedin.com/in/manohar-reddy-93779924b" target="_blank">manohar-reddy</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>GitHub</h3>
-                            <a href="https://github.com/Churakantimanohar" target="_blank">Churakantimanohar</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0000000000005!2d77.00000000000001!3d12.000000000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAwJzAwLjAiTiA3N8KwMDAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" 
-                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-                
-                <form class="contact-form" data-aos="fade-left" netlify>
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">
-                        <i class="fas fa-paper-plane"></i> Send Message
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-about">
-                    <a href="#" class="footer-logo">M<span>.</span></a>
-                    <p>Aspiring Software Engineer passionate about creating efficient systems and beautiful interfaces.</p>
-                    <div class="footer-social">
-                        <a href="https://github.com/Churakantimanohar" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/manohar-reddy-93779924b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="mailto:churakantimanohar@gmail.com"><i class="fas fa-envelope"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-newsletter">
-                    <h3>Stay Updated</h3>
-                    <p>Subscribe to my newsletter for updates on my latest projects and blog posts.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your Email">
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2024 Churakanti Manohar. All rights reserved.</p>
-                <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                </div>
-            </div>
+    <footer>
+        <p>&copy; 2024 Churakanti Manohar</p>
+        <div class="social-icons">
+            <a href="https://github.com/Churakantimanohar" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/manohar-reddy-93779924b" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer>
-
-    <!-- Back to Top Button -->
-    <a href="#" class="back-to-top" id="backToTop">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
